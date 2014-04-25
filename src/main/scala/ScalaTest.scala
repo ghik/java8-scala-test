@@ -9,6 +9,7 @@ object ScalaTest {
   def main(args: Array[String]) {
     run(runnable(println("scala-scala")))
     JavaTest.run(runnable(println("scala-java")))
+    println(classOf[java.util.stream.Stream[_]])
   }
 
 }
